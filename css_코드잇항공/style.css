@@ -1,7 +1,44 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: 'Noto Sans KR', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  position: sticky;
+  background-color: #333;
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0;
+}
+.logo {
+  width: 24px;
+}
+.header-title {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: Titiliumn Web;
+  color: #fff;
+  display: inline-block;
+}
+.header-title span {
+  font-weight: 600;
+}
+.header-section {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 640px;
+  background-color: antiquewhite;
 }
